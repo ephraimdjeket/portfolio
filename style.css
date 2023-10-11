@@ -310,10 +310,6 @@ h4,
     width: 90%;
   }
 
-  .width60 {
-    width: 60%;
-  }
-
   .first-intro p {
     font-size: 0.8rem;
     font-weight: 400;
@@ -330,6 +326,10 @@ h4,
 
   .second-intro {
     gap: 20px;
+  }
+
+  .second-intro p {
+    max-width: 19rem;
   }
 
   .intro-btns {
@@ -414,6 +414,7 @@ h4,
 
   .second-intro p {
     font-size: 1.3rem;
+    max-width: 37rem;
   }
 
   .tools-used p {
