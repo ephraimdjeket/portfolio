@@ -142,7 +142,7 @@ li a:hover {
 
 .project-cards {
   cursor: pointer;
-  border-radius: 1px;
+  border-radius: 20px;
   padding: 20px 0px;
   border: 1px solid #535353;
   display: flex;
