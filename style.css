@@ -148,6 +148,7 @@ li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 0.5s;
 }
 
 .project-cards:hover {
