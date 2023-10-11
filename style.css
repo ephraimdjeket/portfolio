@@ -1,0 +1,523 @@
+:root {
+  --body-bg: #2f2f2f;
+  --secondary-clr: #25ff48;
+  --primary-text: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.text-align {
+  font-size: 2rem;
+  text-align: left;
+  padding: 30px 0;
+}
+
+#contact {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.projects {
+  padding-top: 20px;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.width-flex,
+.invinsible-navbar {
+  width: 90%;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: var(--primary-text);
+  background-color: var(--body-bg);
+  /* background-image: url(Images/24771102_sl_0210121_40570_53.jpg); */
+}
+
+header {
+  padding: 20px 0px;
+  position: sticky;
+  background-color: var(--body-bg);
+  max-width: 100%;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.coloured-text {
+  color: var(--secondary-clr);
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-weight: 600;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  cursor: pointer;
+  color: white;
+}
+
+li a:hover {
+  color: #999999;
+}
+
+/* Global Styling */
+
+.first-intro {
+  padding: 40px 0 20px 0;
+}
+
+.first-intro {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.second-intro {
+  font-family: "Nunito Sans", sans-serif;
+  padding-bottom: 20px;
+}
+
+.intro-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.intro-btns a {
+  padding: 5px;
+  color: white;
+}
+
+.intro-btns a:hover {
+  color: #999999;
+}
+
+.tool-icons {
+  flex-wrap: wrap;
+}
+
+.tool-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.tool-icon {
+  padding: 0 5px;
+}
+
+/* Latest projects global */
+
+.latest-projects {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+.project-cards {
+  cursor: pointer;
+  border-radius: 1px;
+  padding: 20px 0px;
+  border: 1px solid #535353;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-cards:hover {
+  background-color: #2b2b2b7c;
+}
+
+.project-text,
+.card-title {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  cursor: pointer;
+  color: white;
+  margin-top: 30px;
+  margin: 10px;
+}
+
+.links a:hover {
+  color: #999999;
+}
+
+/* Experience global */
+
+.width70 {
+  width: 90%;
+  margin: auto;
+}
+
+h3 {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.experience p,
+.work-experience p {
+  font-weight: 500;
+}
+
+.experience,
+.work-experience {
+  border: 1px solid #535353;
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+h4,
+.work-experience,
+.experience,
+.seperation,
+.view-resume {
+  text-align: left;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.work-experience,
+.experience,
+.contact-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-experience,
+.experience {
+  gap: 20px;
+}
+
+.seperation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.view-resume {
+  color: white;
+  padding-top: 20px;
+}
+
+.view-resume:hover {
+  color: #999999;
+}
+
+/* Contact global */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 350px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.form-group input {
+  padding-left: 5px;
+  height: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.textarea {
+  padding-bottom: 15px;
+}
+
+.submit {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  background-color: var(--secondary-clr);
+  border: none;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+}
+
+/* About me */
+
+.about-me {
+  width: 40%;
+  margin: 100px 0px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px;
+  border: var(--secondary-clr) 1px solid;
+  font-family: "Inter", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Mobile viewport */
+
+@media (max-width: 48em) {
+  /* Home Section mob */
+
+  .text-align {
+    font-size: 1.3rem;
+  }
+
+  .width-flex {
+    width: 90%;
+  }
+
+  .width60 {
+    width: 60%;
+  }
+
+  .first-intro p {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .invinsible-navbar {
+    font-size: 0.8rem;
+  }
+
+  .first-intro {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .second-intro {
+    gap: 20px;
+  }
+
+  .intro-btns {
+    gap: 15px;
+  }
+
+  .intro-btns a {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .tool-icon {
+    max-width: 30px;
+    padding: 0px;
+  }
+
+  /* Latest projects mob*/
+
+  .project-imgs,
+  .project-text {
+    max-width: 70%;
+    text-align: left;
+  }
+
+  .latest-projects {
+    gap: 20px;
+  }
+
+  .project-cards {
+    gap: 10px;
+  }
+
+  .project-text {
+    font-size: 0.9rem;
+  }
+
+  .card-title {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .links a {
+    font-size: 0.7rem;
+  }
+
+  /* Experience mob */
+
+  h4 {
+    font-size: 0.7rem;
+  }
+
+  .experience,
+  .work-experience {
+    font-size: 0.8rem;
+  }
+
+  /* Contact mob*/
+
+  .form-group {
+    max-width: 200px;
+  }
+
+  /* Footer mob */
+
+  .footer {
+    font-size: 0.8rem;
+  }
+}
+
+/* Desktop viewport */
+@media (min-width: 48em) {
+  /* Home Section desk */
+
+  .width-flex {
+    width: 70%;
+  }
+
+  .first-intro {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .second-intro p {
+    font-size: 1.3rem;
+  }
+
+  .tools-used p {
+    font-size: 1.2rem;
+  }
+
+  .first-intro p {
+    font-weight: 400;
+  }
+
+  .tool-icon {
+    max-width: 60px;
+    padding: 5px;
+  }
+
+  .intro-btns {
+    gap: 30px;
+  }
+
+  .intro-btns a {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  /* Latest Project desk*/
+
+  .latest-projects {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+  }
+
+  .project-imgs {
+    max-width: 80%;
+  }
+
+  .project-text {
+    word-break: break-all;
+    text-align: left;
+    max-width: 20rem;
+    padding: 0px 20px;
+  }
+
+  .latest-projects {
+    display: flex;
+    flex: column;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .project-cards {
+    gap: 30px;
+    overflow: hidden;
+  }
+
+  .card-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .links a {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+  }
+
+  /* Experience desk */
+
+  .work-experience,
+  .experience,
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .experience,
+  .work-experience {
+    font-size: 0.9rem;
+  }
+
+  /* Contact desk */
+
+  .form-group {
+    max-width: 350px;
+  }
+
+  .submit {
+    font-size: 0.9rem;
+  }
+
+  /* Footer desk */
+
+  .footer {
+    font-size: 1rem;
+  }
+}
