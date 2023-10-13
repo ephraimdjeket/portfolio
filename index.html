@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Ephraim Djeket</title>
-    <meta name="description" content="Portfolio site of Ephraim Djeket">
+    <meta name="description" content="Hi and welcome to my portfolio website! My name is Ephraim Djeket and I'm a front-end developer. Feel free to contact!
+    ">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/12c76f5aa4.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="Home">
@@ -146,31 +148,21 @@
             <a class="view-resume" href="Files/EphCV.pdf">View Full Resume -></a>
         </section>
         <section class="contact-me">
-            <h2 id="contact">Contact Me</h2>
-            <p>Do not hesitate to contact me. Drop me a message below</p>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" required>
+            <h2 class="text-align">Contact Me</h2>
+            <div class="contact-wrap-main">
+                <div class="contact-wrap">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>ephraimdjeket@gmail.com</p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" required>
+                <div class="contact-wrap">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+47 91195852</p>
                 </div>
-                <div class="form-group">
-                    <label for="phone">Phone (Optional)</label>
-                    <input type="tel" id="phone">
+                <div class="contact-wrap">
+                    <i class="fa-brands fa-discord"></i>
+                    <p>dertzey.eth</p>
                 </div>
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" required>
-                </div>
-                <div class="form-group textarea">
-                    <label for="message">Message</label>
-                    <textarea id="message"></textarea>
-                </div>
-                <button class="submit" type="submit">Submit</button>
-            </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
