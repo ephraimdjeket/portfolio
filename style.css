@@ -82,7 +82,7 @@ li a {
 }
 
 li a:hover {
-  color: #999999;
+  color: var(--secondary-clr);
 }
 
 /* Global Styling */
@@ -176,7 +176,7 @@ li a:hover {
 }
 
 .links a:hover {
-  color: #999999;
+  color: var(--secondary-clr);
 }
 
 /* Experience global */
@@ -418,7 +418,7 @@ h4,
 
   .second-intro p {
     font-size: 1.3rem;
-    max-width: 37rem;
+    max-width: 44rem;
   }
 
   .tools-used p {
